@@ -2,6 +2,7 @@
 
 import NameInput from "./escape-hatches/NameInput";
 import ScrollExample from "./escape-hatches/ScrollExample";
+import Video from "./escape-hatches/VideoPlayer";
 import { ButtonEvent } from "./event/Button";
 import { Toolbar } from "./event/Toolbar";
 
@@ -69,7 +70,8 @@ const App = () => {
 
     // <ButtonEvent/>
     // <NameInput/>
-    <ScrollExample/>
+    // <ScrollExample/>
+    <Video/>
   );
 };
 
