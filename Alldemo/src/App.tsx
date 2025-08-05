@@ -5,6 +5,7 @@ import ScrollExample from "./escape-hatches/ScrollExample";
 import Video from "./escape-hatches/VideoPlayer";
 import { ButtonEvent } from "./event/Button";
 import { Toolbar } from "./event/Toolbar";
+import { StatusIndicator } from "./Hooks/CustomHookDemo";
 import { MyComponent } from "./Hooks/UseEffectsDemo";
 import Timer from "./Hooks/useRefDemo";
 
@@ -75,7 +76,8 @@ const App = () => {
     // <ScrollExample/>
     // <Video/>
     // <MyComponent/>
-    <Timer/>
+    // <Timer/>
+    <StatusIndicator/>
   );
 };
 
