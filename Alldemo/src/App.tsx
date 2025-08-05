@@ -1,5 +1,6 @@
- 
 // ------------------  Example 1  ------------------
+
+import { Toolbar } from "./event/Toolbar";
 
 // const ValidPassword = () => <h1>Valid Password</h1>;
 // const InvalidPassword = () => <h1>Invalid Password</h1>;
@@ -52,9 +53,16 @@ const Password = ({ isValid }) =>
 
 const App = () => {
   return (
-    <section>
-      <Password isValid={true} />
-    </section>
+    // <section>
+    //   <Password isValid={true} />
+    // </section>
+
+    <div>
+      <Toolbar
+        onPlayMovie={() => alert("Playing!")}
+        onUploadImage={() => alert("Uploading!")}
+      />
+    </div>
   );
 };
 
