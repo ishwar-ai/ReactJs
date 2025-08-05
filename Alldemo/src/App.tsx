@@ -1,5 +1,8 @@
 // ------------------  Example 1  ------------------
 
+import NameInput from "./escape-hatches/NameInput";
+import ScrollExample from "./escape-hatches/ScrollExample";
+import { ButtonEvent } from "./event/Button";
 import { Toolbar } from "./event/Toolbar";
 
 // const ValidPassword = () => <h1>Valid Password</h1>;
@@ -57,12 +60,16 @@ const App = () => {
     //   <Password isValid={true} />
     // </section>
 
-    <div>
-      <Toolbar
-        onPlayMovie={() => alert("Playing!")}
-        onUploadImage={() => alert("Uploading!")}
-      />
-    </div>
+    // <div>
+    //   <Toolbar
+    //     onPlayMovie={() => alert("Playing!")}
+    //     onUploadImage={() => alert("Uploading!")}
+    //   />
+    // </div>
+
+    // <ButtonEvent/>
+    // <NameInput/>
+    <ScrollExample/>
   );
 };
 
