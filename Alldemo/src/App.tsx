@@ -8,6 +8,9 @@ import { Toolbar } from "./event/Toolbar";
 import { StatusIndicator } from "./Hooks/CustomHookDemo";
 import { MyComponent } from "./Hooks/UseEffectsDemo";
 import Timer from "./Hooks/useRefDemo";
+import ExampleThree from "./passing fun as a value/components/ExampleThree";
+import ExampleTwo from "./passing fun as a value/components/ExampleTwo";
+import FunValue from "./passing fun as a value/FunValue";
 
 // const ValidPassword = () => <h1>Valid Password</h1>;
 // const InvalidPassword = () => <h1>Invalid Password</h1>;
@@ -77,7 +80,10 @@ const App = () => {
     // <Video/>
     // <MyComponent/>
     // <Timer/>
-    <StatusIndicator/>
+    // <StatusIndicator/>
+    // <FunValue/>
+    // <ExampleTwo/>
+    <ExampleThree />
   );
 };
 
