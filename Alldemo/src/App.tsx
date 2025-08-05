@@ -5,6 +5,7 @@ import ScrollExample from "./escape-hatches/ScrollExample";
 import Video from "./escape-hatches/VideoPlayer";
 import { ButtonEvent } from "./event/Button";
 import { Toolbar } from "./event/Toolbar";
+import { MyComponent } from "./Hooks/UseEffectsDemo";
 
 // const ValidPassword = () => <h1>Valid Password</h1>;
 // const InvalidPassword = () => <h1>Invalid Password</h1>;
@@ -71,7 +72,8 @@ const App = () => {
     // <ButtonEvent/>
     // <NameInput/>
     // <ScrollExample/>
-    <Video/>
+    // <Video/>
+    <MyComponent/>
   );
 };
 
