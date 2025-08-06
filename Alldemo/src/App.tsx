@@ -8,6 +8,7 @@ import { Toolbar } from "./event/Toolbar";
 import { StatusIndicator } from "./Hooks/CustomHookDemo";
 import { MyComponent } from "./Hooks/UseEffectsDemo";
 import Timer from "./Hooks/useRefDemo";
+import UseStateDemo from "./Hooks/UseStateDemo";
 import ExampleThree from "./passing fun as a value/components/ExampleThree";
 import ExampleTwo from "./passing fun as a value/components/ExampleTwo";
 import FunValue from "./passing fun as a value/FunValue";
@@ -83,7 +84,8 @@ const App = () => {
     // <StatusIndicator/>
     // <FunValue/>
     // <ExampleTwo/>
-    <ExampleThree />
+    // <ExampleThree />
+    <UseStateDemo/>
   );
 };
 
