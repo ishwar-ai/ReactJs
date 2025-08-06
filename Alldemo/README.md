@@ -1,69 +1,66 @@
-# React + TypeScript + Vite
+# 🚀 React Practice Journey (Fundamentals to Advanced)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository tracks my hands-on React.js learning and practice — from core fundamentals to advanced concepts. Below is a breakdown of everything I’ve practiced so far.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔰 Fundamentals
+- JSX Syntax and Embedding Expressions
+- Functional Components and Props
+- Event Handling (`onClick`, `onChange`, etc.)
+- State Management using `useState`
+- Conditional Rendering (`if`, `&&`, ternary)
+- List Rendering with `.map()`
+- Key Prop Usage
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🔁 Hooks Practice
+- `useState` – State handling
+- `useEffect` – Lifecycle, side effects, API calls
+- `useRef` – Referencing DOM nodes, persist values
+- `useReducer` – Complex state logic, reducer pattern
+- `useContext` – Global state sharing across components
+- Custom Hooks – Reusable logic encapsulation
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🧱 Component Patterns
+- Component Composition
+- Props Drilling vs Context
+- Controlled vs Uncontrolled Inputs
+- Form Handling with validation
+- Lifting State Up
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🌐 API & Data Fetching
+- Fetching with `fetch` / `axios`
+- useEffect + async functions
+- Loading, Error, and Success States
+- Working with REST APIs (CRUD)
+- Dynamic Rendering with API Data
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🧠 Advanced Concepts
+- React Router v6:
+  - Nested Routes
+  - Dynamic Routes
+  - Navigation (useNavigate, Link)
+- Lazy Loading and Code Splitting
+- Performance Optimization (memo, useMemo, useCallback)
+- Error Boundaries
+- Portals
+- Forward Refs
+
+---
+
+## ⚡ DOM vs Virtual DOM
+- Understood how React uses Virtual DOM for faster rendering
+- Compared how real DOM vs virtual DOM differ in structure and update behavior
+
+---
+ 
+ 
+Thanks for checking out my React practice journey! More coming soon 🚀

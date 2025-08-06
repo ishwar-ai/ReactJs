@@ -8,6 +8,7 @@ import { Toolbar } from "./event/Toolbar";
 import { StatusIndicator } from "./Hooks/CustomHookDemo";
 import UseContextDemo from "./Hooks/UseContextDemo";
 import { MyComponent } from "./Hooks/UseEffectsDemo";
+import Counter from "./Hooks/UseReducerDemo";
 import UseReducerDemo from "./Hooks/UseReducerDemo";
 import Timer from "./Hooks/useRefDemo";
 import UseStateDemo from "./Hooks/UseStateDemo";
@@ -88,8 +89,9 @@ const App = () => {
     // <ExampleTwo/>
     // <ExampleThree />
     // <UseStateDemo/>
-    <UseReducerDemo />
+    // <UseReducerDemo />
     // <UseContextDemo/>
+    <Counter/>
   );
 };
 
