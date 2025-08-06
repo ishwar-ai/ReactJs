@@ -96,12 +96,13 @@ function Counter() {
       <button onClick={handleDecrement}>Decrement</button>
       <div>
         <input
+        className="bg-red-400"
           type="number"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
-        <button onClick={handleIncrementByAmount}>Add</button>
-        <button onClick={handleDecrementByAmount}>Subtract</button>
+        <button className="border px-2 rounded mr-4 ml-4" onClick={handleIncrementByAmount}>Add</button>
+        <button className="border px-2 rounded" onClick={handleDecrementByAmount}>Subtract</button>
       </div>
     </div>
   );

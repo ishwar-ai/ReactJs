@@ -1,5 +1,6 @@
 // ------------------  Example 1  ------------------
 
+import Switcher from "./advanceKey/components/Switcher";
 import NameInput from "./escape-hatches/NameInput";
 import ScrollExample from "./escape-hatches/ScrollExample";
 import Video from "./escape-hatches/VideoPlayer";
@@ -91,7 +92,8 @@ const App = () => {
     // <UseStateDemo/>
     // <UseReducerDemo />
     // <UseContextDemo/>
-    <Counter/>
+    // <Counter/>
+    <Switcher/>
   );
 };
 
