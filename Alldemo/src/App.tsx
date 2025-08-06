@@ -6,7 +6,9 @@ import Video from "./escape-hatches/VideoPlayer";
 import { ButtonEvent } from "./event/Button";
 import { Toolbar } from "./event/Toolbar";
 import { StatusIndicator } from "./Hooks/CustomHookDemo";
+import UseContextDemo from "./Hooks/UseContextDemo";
 import { MyComponent } from "./Hooks/UseEffectsDemo";
+import UseReducerDemo from "./Hooks/UseReducerDemo";
 import Timer from "./Hooks/useRefDemo";
 import UseStateDemo from "./Hooks/UseStateDemo";
 import ExampleThree from "./passing fun as a value/components/ExampleThree";
@@ -85,7 +87,9 @@ const App = () => {
     // <FunValue/>
     // <ExampleTwo/>
     // <ExampleThree />
-    <UseStateDemo/>
+    // <UseStateDemo/>
+    <UseReducerDemo />
+    // <UseContextDemo/>
   );
 };
 
