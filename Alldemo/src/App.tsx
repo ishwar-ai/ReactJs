@@ -93,7 +93,8 @@ const App = () => {
     // <UseReducerDemo />
     // <UseContextDemo/>
     // <Counter/>
-    <Switcher/>
+    // <Switcher/>
+
   );
 };
 
