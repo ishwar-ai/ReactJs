@@ -10,6 +10,7 @@ import ContextApiDemo from "./Hooks/ContextApiDemo";
 import { StatusIndicator } from "./Hooks/CustomHookDemo";
 import UseContextDemo from "./Hooks/UseContextDemo";
 import { MyComponent } from "./Hooks/UseEffectsDemo";
+import UniqueIDPage from "./Hooks/UseIdDemo";
 import Counter from "./Hooks/UseReducerDemo";
 import UseReducerDemo from "./Hooks/UseReducerDemo";
 import Timer from "./Hooks/useRefDemo";
@@ -95,7 +96,8 @@ const App = () => {
     // <UseContextDemo/>
     // <Counter/>
     // <Switcher/>
-    <ContextApiDemo/>
+    // <ContextApiDemo/>
+    <UniqueIDPage/>
 
 
   );
