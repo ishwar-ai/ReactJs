@@ -6,6 +6,7 @@ import ScrollExample from "./escape-hatches/ScrollExample";
 import Video from "./escape-hatches/VideoPlayer";
 import { ButtonEvent } from "./event/Button";
 import { Toolbar } from "./event/Toolbar";
+import ContextApiDemo from "./Hooks/ContextApiDemo";
 import { StatusIndicator } from "./Hooks/CustomHookDemo";
 import UseContextDemo from "./Hooks/UseContextDemo";
 import { MyComponent } from "./Hooks/UseEffectsDemo";
@@ -94,6 +95,8 @@ const App = () => {
     // <UseContextDemo/>
     // <Counter/>
     // <Switcher/>
+    <ContextApiDemo/>
+
 
   );
 };
